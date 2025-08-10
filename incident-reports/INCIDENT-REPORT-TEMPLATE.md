@@ -1,4 +1,4 @@
-# Incident Report – TEMPLATE
+# Incident Report – TEMPLATE (THIS IS REPORT TEMPLATE AND NOT YET FINALIZED)
 
 ## Summary
 - **Date/Time (UTC):** 
