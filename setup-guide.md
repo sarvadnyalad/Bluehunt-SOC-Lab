@@ -26,11 +26,11 @@
    - `Event | where Source == "Microsoft-Windows-Sysmon" | take 5`
    - `SecurityEvent | take 5` (after Security Events via AMA)
 
-## Day 2 — Simulate Attacks & Detect
+## Day 2 — Simulate Attacks & Detect (still in progress)
 - Run nmap scan, hydra RDP brute force (optional), EICAR, and encoded PowerShell.
 - Hunt with KQL and convert hunts into Analytic Rules.
 
-## Day 3 — Report & Finalize
+## Day 3 — Report & Finalize (still in progress)
 - Write incident reports with evidence.
 - Build a Sentinel workbook dashboard.
 - Final verification run.
