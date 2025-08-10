@@ -38,4 +38,6 @@ bluehunt-soc-lab/
 - [x] Logs visible in **Heartbeat** and **Event** (Sysmon under Event.Source == "Microsoft-Windows-Sysmon")
 - [ ] **SecurityEvent** table populated (appears after Windows Security Events via AMA and activity)
 
+## 🪪 License
 
+This project is licensed under the MIT License. See [LICENSE](LICENSE) for details.
