@@ -34,7 +34,7 @@ bluehunt-soc-lab/
 - [x] Static IPs: Kali `10.10.10.10`, Windows `10.10.10.20`; ping works
 - [x] Sysmon installed; PowerShell logging enabled
 - [ ] MDE onboarded (in progress)
-- [x] Sentinel workspace ready; Arc + AMA + DCR connected
+- [ ] Sentinel workspace ready; Arc + AMA + DCR connected (in progress)
 - [x] Logs visible in **Heartbeat** and **Event** (Sysmon under Event.Source == "Microsoft-Windows-Sysmon")
 - [ ] **SecurityEvent** table populated (appears after Windows Security Events via AMA and activity)
 
