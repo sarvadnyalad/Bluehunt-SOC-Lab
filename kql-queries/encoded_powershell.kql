@@ -1,0 +1,3 @@
+Event
+| where Source == "Microsoft-Windows-PowerShell"
+| where RenderedDescription has_any ("-enc", "-encodedcommand")

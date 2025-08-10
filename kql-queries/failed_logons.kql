@@ -1,0 +1,3 @@
+SecurityEvent
+| where EventID == 4625
+| summarize count() by TargetUserName, IpAddress, bin(TimeGenerated, 5m)

@@ -1,0 +1,3 @@
+Event
+| where Source == "Microsoft-Windows-Sysmon"
+| take 50

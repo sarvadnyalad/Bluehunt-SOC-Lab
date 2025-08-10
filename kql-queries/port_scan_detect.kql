@@ -1,0 +1,4 @@
+SecurityEvent
+| where EventID in (5156, 5157)
+| summarize dcount(DestinationPort) by IpAddress, bin(TimeGenerated, 5m)
+| where dcount_DestinationPort > 50

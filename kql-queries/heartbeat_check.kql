@@ -1,0 +1,2 @@
+Heartbeat
+| summarize count() by Computer, bin(TimeGenerated, 15m)
