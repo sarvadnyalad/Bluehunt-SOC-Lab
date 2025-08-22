@@ -1,8 +1,8 @@
 # BlueHunt SOC Lab
 
-A compact, three‑day Microsoft‑centric SOC lab you can run locally: Kali (attacker) + Windows 10/11 (victim) on an isolated VirtualBox network, with telemetry flowing into Microsoft Sentinel. This repo tracks setup steps, KQL hunts, detections, and incident write‑ups.
+A compact,  Microsoft‑centric SOC lab you can run locally: Kali (attacker) + Windows 10/11 (victim) on an isolated VirtualBox network, with telemetry flowing into Microsoft Sentinel. This repo tracks setup steps, KQL hunts, detections, and incident write‑ups.
 
-## Architecture (Day 1 status)
+## Architecture cuurent status)
 - VirtualBox host with **two VMs**:
   - **Kali** (attacker): NAT + Internal `LABNET` (10.10.10.0/24)
   - **Windows 10/11** (victim): NAT + Internal `LABNET`
